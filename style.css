@@ -1,0 +1,170 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+.container{
+max-width: 1220px;
+margin: 0 auto;
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header{
+    background: #F3D7B7;
+padding: 50px 0;
+}
+nav ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.hero{
+padding: 50px 0;
+    background-color: #F3D7B7;
+    height: 570px;
+}
+.hero .container{
+    display: flex;
+    gap: 116px;
+}
+.hero-text{
+    width: 464px;
+}
+h1{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 75px;
+}
+.hero-text p{
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+margin: 47px 0;
+}
+.hero-img{
+    width: 600px;
+    position: relative;
+}
+.katta{
+    width: 600px;
+}
+.btn{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    letter-spacing: 1px;
+   color: white; 
+padding: 16px 24px;
+border-radius: 40px;
+border: none;
+background: #0A775F;
+}
+.kichik{
+    position: absolute;
+left: -100px;
+    top: -100px;
+    animation-name: aylan;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+
+}
+@keyframes aylan{
+
+}
+.our{
+padding: 150px 0 50px 0;
+background-color: #f6f6ef;
+}
+.our h2{
+text-align: center;
+font-size: 50px;
+font-weight: 700;
+line-height: 58.59px;
+}
+.ota{
+    display: flex;
+gap: 60px;
+    align-items: center;
+margin: 50px 0;
+    justify-content: center;
+}
+.ota h3{
+font-size: 48px;
+font-weight: 500;
+line-height: 56.25px;
+}
+.ota p{
+font-size: 22px;
+font-weight: 400;
+line-height: 34px;
+width: 360px;
+margin-top: 25px;
+}
+.ota img{
+transition: 2s;
+
+}
+.ota img:hover{
+    transform: scale(1.2);
+}
+footer{
+    background: #F3D7B7;
+}
+footer .container{
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+justify-content: space-between;
+}
+.kofiy .container{
+    display: flex;
+    margin: 100px;
+    justify-content: center;
+    align-items: center;
+   gap: 300px;
+}
+.text h2{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56.25px;
+}
+.text p{
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+margin-top: 60px;
+}
+.unkom{
+background: #C99B67;
+}
+.unkom .container{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 70px;
+}
+.oq-text h2{
+    color: white;
+font-size: 50px;
+font-weight: 700;
+line-height: 58.59px;
+}
+.oq-text p{
+    color: white;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+margin-top: 50px;
+}
+i{
+    width: 50px;
+    height: 50px;
+}
+
